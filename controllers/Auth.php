@@ -163,7 +163,7 @@ class Auth extends MY_Controller
 
 	function unimpersonate()
 	{
-		$this->easyauth->unimpersonate($id);
+		$this->easyauth->unimpersonate();
 		redirect($this->redirect);
 	}
 }
